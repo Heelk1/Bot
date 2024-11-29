@@ -1,0 +1,35 @@
+======================================
+         A R C H I V U S        
+======================================
+
+Instalação do Termux
+
+Para começar a usar o Archivus, você precisará instalar o Termux no seu dispositivo Android. Siga os passos abaixo:
+
+Passo 1: Instalar o Termux
+Clique no link abaixo para baixar o Termux:
+[Baixar Termux]
+https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
+
+Após o download, instale o Termux no seu dispositivo.
+
+Passo 2: Configurar o Termux
+Abra o Termux e execute o seguinte comando para atualizar os repositórios e instalar as dependências necessárias: termux-change-repo && pkg upgrade -y && pkg install -y ffmpeg nodejs wget tesseract git && termux-setup-storage
+
+Passo 3: Navegar até o Diretório do Projeto
+Agora, você precisa navegar até o diretório onde o projeto "archivus-v1" está localizado. Você pode fazer isso usando um dos comandos abaixo, dependendo de onde você salvou o projeto:
+
+cd /sdcard/archivus-v1
+ou
+cd /sdcard/Download/archivus-v1
+
+Passo 4: Iniciar o Bot
+Para ligar o bot, basta executar o seguinte comando no Termux: npm start
+
+Observação:
+Ao iniciar o bot, você terá a opção de escolher entre usar um QR Code ou um código. Basta selecionar a opção 1 para QR Code ou a opção 2 para código.
+
+======================================
+         A R C H I V U S        
+======================================
+Criado por: ARCHIVUS V1
